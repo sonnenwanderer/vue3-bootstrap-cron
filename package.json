@@ -1,0 +1,23 @@
+{
+  "name": "vue3-bootstrap-cron",
+  "version": "0.0.0",
+  "description": "Vue3 的輕量化 Crontab GUI 組件，依賴BootStrap5、cron-parser，支援解析/反解析 Crontab 表達式，生成最近3次的執行時間",
+  "author": "sonnenwanderer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "cron-parser": "^4.9.0",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@types/bootstrap": "^5.2.10",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
